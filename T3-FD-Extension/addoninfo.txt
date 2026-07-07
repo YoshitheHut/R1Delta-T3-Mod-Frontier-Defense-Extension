@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"addontitle"			"T3-FD-Extension"
+	"addonDescription"		"Frontier Defense Extension meant for the T2-Titan-Transfer Project made by me.
+What it does is allow the modded titans spawn during Frontier Defense."
+	"addonversion"			"1.0.0"
+	"addonauthor"			"Yoshi the Hut"
+
+	"addonContent_Script"	"1"
+}

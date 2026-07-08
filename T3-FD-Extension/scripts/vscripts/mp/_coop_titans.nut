@@ -191,7 +191,7 @@ function SetRandomWeaponOnTitanTemplate( table, randomMod = false, useAmpedWeapo
 	{
 		case "titan_ion":
 			local med_weap_guns = [ "mp_titanweapon_xo16", "mp_titanweapon_40mm" ]
-			local med_weap_mods = [ ["electric_rounds"], ["burst"] ]//man the 40mm in code is boring af.
+			local med_weap_mods = [ ["burn_mod_titan_xo16"], ["burn_mod_titan_40mm"] ]//man the 40mm in code is boring af.
 			local medium_weapon_num = RandomInt( 0, med_weap_guns.len() )
 			weapon = med_weap_guns[ medium_weapon_num ]
 			weaponMod = med_weap_mods[ medium_weapon_num ]
@@ -199,7 +199,7 @@ function SetRandomWeaponOnTitanTemplate( table, randomMod = false, useAmpedWeapo
 
 		case "titan_scorch":
 			weapon = "mp_titanweapon_rocket_launcher"
-			weaponMod = ["burn_mod_titan_rocket_launcher"]
+			weaponMod = ["rapid_fire_missiles"]
 			break
 
 		case "titan_legion":

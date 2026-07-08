@@ -22,7 +22,7 @@ function SpawnMortarTitan( origin, angles, team )
 		case "titan_scorch":
 			table.model 	= SCORCH_MODEL
 			table.weapon	= "mp_titanweapon_rocket_launcher"
-			table.weaponMod = [ "burn_mod_titan_rocket_launcher" ]
+			table.weaponMod = [ "rapid_fire_missiles" ]
 			break
 	}
 
